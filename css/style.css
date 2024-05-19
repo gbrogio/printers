@@ -274,7 +274,7 @@ button {
 
 .navigation.navbar-dark .navbar-nav .nav-link {
      padding: 0 25px;
-     color: #fff;
+     color: #0c0a09;
      font-size: 16px;
      line-height: 20px;
      text-transform: uppercase;
@@ -351,7 +351,7 @@ button {
      color: #2d2c2c;
      font-size: 67px;
      line-height: 90px;
-     padding-bottom: 70px;
+     padding-bottom: 14px;
      font-weight: bold;
 }
 
@@ -359,13 +359,14 @@ button {
      font-size: 27px;
      line-height: 35px;
      color: #2d2c2c;
+     padding-bottom: 8px;
+     display: block;
 }
 
 .text-bg span {
      font-family: 'Baloo Chettan', cursive;
-     color: #2bcc91;
-     font-size: 40px;
-     line-height: 77px;
+     color: #0284c7;
+     font-size: 24px;
      font-weight: bold;
      padding-bottom: 20px;
      display: block;
@@ -373,7 +374,7 @@ button {
 
 .text-bg a {
      font-size: 17px;
-     background-color: #2d2c2c;
+     background: linear-gradient(to bottom, #0aec98 0%, #0284c7 100%);
      color: #fff;
      padding: 13px 0px;
      width: 100%;
@@ -385,7 +386,7 @@ button {
 }
 
 .text-bg a:hover {
-     background-color: #2bcc91;
+     background-color: #0284c7;
      color: #fff;
      transition: ease-in all 0.5s;
      border-radius: 26px;
@@ -393,7 +394,7 @@ button {
 
 .text-img {
      height: 750px;
-     background: linear-gradient(to bottom, #0aec98 0%, #2bcc91 100%);
+     background: linear-gradient(to bottom, #0aec98 0%, #0284c7 100%);
      border-radius: 322px 0px 0px 380px;
      padding: 132px 20px 0px 50px;
 }
@@ -420,7 +421,7 @@ button {
     color: #fff;
 padding: 7px 12px;
 font-size: 21px;
-    border: #2bcc91 solid 7px;}
+    border: #0284c7 solid 7px;}
 
 
 
@@ -516,7 +517,7 @@ font-size: 21px;
 
 .best_box {
      text-align: center;
-     background-color: #2bcc91;
+     background-color: #0284c7;
      border-radius: 20px;
      padding: 30px 20px;
      margin-bottom: 30px;
@@ -548,7 +549,7 @@ font-size: 21px;
 }
 
 .best .read_more:hover {
-     background-color: #2bcc91;
+     background-color: #0284c7;
 }
 
 
@@ -624,7 +625,7 @@ font-size: 21px;
 }
 
 .request .main_form .send_btn:hover {
-     background-color: #2bcc91;
+     background-color: #0284c7;
      transition: ease-in all 0.5s;
      color: #fff;
      border-radius: 26px;
@@ -669,7 +670,7 @@ font-size: 21px;
 /** two_box section section **/
 
 .two_box {
-     background: #2bcc91;
+     background: #0284c7;
      margin-top: 90px;
      padding: 0 40px;
 }
@@ -738,7 +739,7 @@ font-size: 21px;
 
 .testimonial_Carousel .test_box h3 {
      font-size: 30px;
-     color: #2bcc91;
+     color: #0284c7;
      line-height: 32px;
      display: inline-block;
      padding-bottom: 40px;
@@ -777,7 +778,7 @@ font-size: 21px;
 /** footer **/
 
 .multi {
-     color: #2bcc91;
+     color: #0284c7;
      font-weight: bold;
      font-size: 40px;
 }
@@ -825,7 +826,7 @@ font-size: 21px;
 }
 
 .copyright a:hover {
-     color: #2bcc91;
+     color: #0284c7;
 }
 
 

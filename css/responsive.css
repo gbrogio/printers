@@ -23,15 +23,15 @@
 
 @media (min-width: 768px) and (max-width: 991px) {
     .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 0px 7px;
+        padding: 0px 8px;
     }
     .text-img {
         height: 803px;
         border-radius: inherit;
-        padding: 229px 20px 0px 50px;
+        padding: 300px 20px 0px 20px;
     }
     .text-bg {
-        padding-top: 166px;
+        padding-top: 100px;
     }
     .text-bg h1 {
         padding-top: 0px;
@@ -39,7 +39,7 @@
         line-height: 70px;
     }
     .text-bg span {
-        font-size: 33px;
+        font-size: 24px;
         line-height: 45px;
     }
     .best_box h4 {
