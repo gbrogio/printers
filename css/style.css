@@ -317,17 +317,20 @@ button {
 
 
 /*--------------------------------------------------------------------- layout new css ---------------------------------------------------------------------*/
-
 .head_top {
      background-repeat: no-repeat;
 }
 
 .header {
      width: 100%;
-     background: transparent;
-     padding: 30px 30px;
-     position: absolute;
+     padding: 10px 16px;
+     position: fixed;
      z-index: 999;
+     backdrop-filter: blur(160px);
+     background-color: rgba(255, 255, 255, .15);
+     border-bottom-color: white;
+     border-bottom-width: 1px;
+     border-bottom-style: solid;
 }
 
 .logo a {
@@ -343,7 +346,7 @@ button {
      max-width: 429px;
      width: 100%;
      float: right;
-     padding-top: 190px;
+     padding-top: 50px;
      padding-bottom: 50px;
 }
 
