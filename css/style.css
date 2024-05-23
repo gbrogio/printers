@@ -350,6 +350,12 @@ button {
   -webkit-mask-image: -webkit-radial-gradient(#000, #fff);
   padding: 0;
 }
+.about-content {
+     display: flex;
+     flex-direction: column;
+     justify-items: center;
+     align-items: center;
+}
 .mx-auto{ 
      margin: 0 auto;
 }
