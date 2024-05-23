@@ -470,7 +470,7 @@ button {
      padding: 10px 16px;
      position: fixed;
      z-index: 999;
-     backdrop-filter: blur(160px);
+     backdrop-filter: blur(16px);
      background-color: rgba(255, 255, 255, .15);
      border-bottom-color: white;
      border-bottom-width: 1px;
