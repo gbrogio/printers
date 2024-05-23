@@ -409,7 +409,9 @@ button {
 .btn-31:hover:before {
   --progress: 0%;
 }
-
+.container-fluid{
+     padding: 2rem 0;
+}
 .btn-31 .text-container {
   display: block;
   overflow: hidden;
@@ -718,17 +720,18 @@ font-size: 21px;
      font-size: 17px;
      line-height: 28px;
 }
-
+.formconteiner{
+     padding: 4rem; 
+     background-color: #2c363d;
+     border-radius: 2rem;
+}
 .request {
      padding-top: 90px;
 }
 
 .main_form {
-     padding: 50px 0px 50px 40px;
-}
-
-.black_bg {
-     background-color: #2c363d;
+     padding: 50px 0px 50px 0px;
+     width: 100%;
 }
 
 .request .main_form .contactus {
@@ -975,6 +978,14 @@ font-size: 21px;
      color: #0284c7;
 }
 
+body {
+     overflow-x: hidden;
+}
 
+.logo_section{
+     width: 15rem;
+     height: auto;
+     margin: auto 0;
+}
 /** end footer **/
 
