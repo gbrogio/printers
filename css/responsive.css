@@ -157,8 +157,30 @@
 }
 
 @media (max-width: 575px) {
-    .header {
-        padding: 30px 0px 0px 0px;
+    .hero-bg {
+        opacity: 60% !important;
+    }
+    .hero-bg_container {
+        background-color: #000;
+    }
+    .hero-content {
+        position: absolute;
+        z-index: 10;
+        text-align: center;
+        top: 2rem;
+    }
+    .hero-content * {
+        color: white !important;
+    }
+    .hero-content span {
+        color: #0aec98 !important;
+    }
+    .formconteiner {
+        border-radius: 0;
+        padding: 0 1rem 2rem;
+    }
+    .footer, .footer .cont {
+        text-align: center;
     }
     .logo {
         text-align: center !important;
@@ -180,7 +202,7 @@
     .text-img {
         height: auto;
         border-radius: inherit;
-        padding: 40px 20px 40px 50px;
+        padding: 40px 20px;
     }
     .titlepage h2 {
         font-size: 40px;
@@ -218,20 +240,24 @@
         display: inherit !important;
         padding: 0;
         width: 100%;
-        margin-top: -45px;
     }
     .navigation .navbar-collapse {
         background: #2bcc91;
         padding: 20px;
-        margin-top: 46px;
-        position: absolute;
+        margin-top: 57px;
+        position: fixed;
+        left: 0;
         width: 100%;
+        text-align: center;
         margin-right: 20px;
         z-index: 999;
     }
     .navigation.navbar-dark .navbar-nav .nav-link {
-        padding: 10px 0;
+        padding: 1rem 0;
         color: #000;
+    }
+    .sign_btn {
+        margin-top: 1rem;
     }
     .navigation.navbar-dark .navbar-toggler {
         float: right;

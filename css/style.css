@@ -184,7 +184,9 @@ img {
 .navbar-form input {
      border: none !important;
 }
-
+.banner_main {
+     overflow: hidden;
+}
 .badge {
      font-weight: 500;
 }
@@ -467,11 +469,13 @@ button {
 }
 
 
-.header {
+header {
      width: 100%;
      padding: 10px 16px;
-     position: fixed;
-     z-index: 999;
+     position: sticky;
+     height: fit-content;
+     top: 0;
+     z-index: 9999999;
      backdrop-filter: blur(16px);
      background-color: rgba(255, 255, 255, .15);
      border-bottom-color: white;
@@ -514,7 +518,7 @@ button {
 
 .text-bg span {
      font-family: 'Baloo Chettan', cursive;
-     color: #0284c7;
+     color: #0aec98;
      font-size: 24px;
      font-weight: bold;
      padding-bottom: 20px;
