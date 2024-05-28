@@ -1,17 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <!-- basic -->
     <meta charset="utf-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <!-- mobile metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="viewport" content="initial-scale=1, maximum-scale=1" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
     <!-- site metas -->
-    <title>pcoint</title>
-    <meta name="keywords" content="" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
+    <title>Printers | Just Print</title>
+    <meta name="keywords" content="impressoras, conserto de impressoras, venda de impressoras, venda de peças, manutenção de impressoras, reciclagem de cartuchos, soluções de impressão, impressoras multifuncionais, suporte técnico, sustentabilidade" />
+    <meta name="description" content="Printers oferece soluções completas e inovadoras em impressão, incluindo venda de impressoras multifuncionais, manutenção especializada e reciclagem de cartuchos. Nossa missão é atender às necessidades de empresas e consumidores com produtos de alta qualidade e serviços de excelência." />
+    <meta name="author" content="Printers" />
     <!-- bootstrap css -->
     <link rel="stylesheet" href="css/bootstrap.min.css" />
     <!-- style css -->
@@ -19,23 +18,16 @@
     <!-- Responsive-->
     <link rel="stylesheet" href="css/responsive.css" />
     <!-- fevicon -->
-    <link rel="icon" href="images/fevicon.png" type="image/gif" />
+    <link rel="icon" href="images/favicon.ico" type="image/gif" />
     <!-- Scrollbar Custom CSS -->
     <link rel="stylesheet" href="css/jquery.mCustomScrollbar.min.css" />
     <!-- Tweaks for older IEs-->
-    <link
-      rel="stylesheet"
-      href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css"
-      media="screen"
-    />
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/2.1.5/jquery.fancybox.min.css" media="screen" />
     <!--[if lt IE 9]>
       <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
-      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script
-    ><![endif]-->
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
   </head>
   <!-- body -->
 
@@ -57,7 +49,7 @@
                   <div class="center-desk">
                     <div class="logo">
                       <a href="index.html"
-                        ><img src="images/long.svg" alt="#"
+                        ><img src="images/logo.svg" alt="#"
                       /></a>
                     </div>
                   </div>
@@ -101,18 +93,18 @@
       <!-- banner -->
       <section class="banner_main">
         <div>
-          <div class="row d_flex">
-            <div class="col-md-5">
+          <div class="d_flex">
+            <div style="width: 100%; text-align: left;">
               <div class="text-bg hero-content" style="padding: 0 0 0 1rem;">
+                <strong style="transform: translateY(65%);">Imprimindo futuros</strong>
                 <h1>PRINTERS</h1>
-                <strong>Imprimindo futuros</strong>
                 <span>Desde de 2024</span>
                 <a href="#">Compre aqui</a>
               </div>
             </div>
-            <div class="col-md-7 hero-bg_container padding_right1">
+            <div style="width: 100%;" class="hero-bg_container padding_right1">
               <div class="text-img hero-bg">
-                <figure><img src="images/img1.webp" alt="#" /></figure>
+                <figure><img src="images/impressora-2.webp" alt="#" /></figure>
               </div>
             </div>
           </div>
@@ -231,14 +223,15 @@
             <div class="black_bg">
               <div class="row">
                 <div>
-                  <form class="main_form">
+                  <form class="main_form" id="contact-form">
                     <div class="row">
                       <div class="col-md-12">
                         <input
                           class="contactus"
                           placeholder="Nome"
                           type="text"
-                          name="Nome"
+                          name="name"
+                          id="name"
                         />
                       </div>
                       <div class="col-md-12">
@@ -247,6 +240,7 @@
                           placeholder="Telefone"
                           type="text"
                           name="phone"
+                          id="phone"
                         />
                       </div>
                       <div class="col-md-12">
@@ -255,6 +249,7 @@
                           placeholder="E-mail"
                           type="text"
                           name="email"
+                          id="email"
                         />
                       </div>
                       <div class="col-md-12">
@@ -263,6 +258,7 @@
                           placeholder="Sua mensagem"
                           type="text"
                           name="message"
+                          id="message"
                         ></textarea>
                       </div>
                       <button class="btn-31 mx-auto">

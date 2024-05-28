@@ -245,7 +245,7 @@ button {
 
 .loader_bg {
      position: fixed;
-     z-index: 9999999;
+     z-index: 99999999;
      background: #fff;
      width: 100%;
      height: 100%;
@@ -468,7 +468,6 @@ button {
   }
 }
 
-
 header {
      width: 100%;
      padding: 10px 16px;
@@ -483,6 +482,11 @@ header {
      border-bottom-style: solid;
 }
 
+.head_top {
+     max-width: 1265px;
+     margin: 0 auto;
+}
+
 .logo a {
      font-size: 40px;
      font-weight: bold;
@@ -493,9 +497,9 @@ header {
 
 .text-bg {
      text-align: left;
-     max-width: 429px;
-     width: 100%;
+     max-width: 640px;
      float: right;
+     width: 100%;
      padding-top: 50px;
      padding-bottom: 50px;
 }
@@ -548,8 +552,9 @@ header {
 .text-img {
      height: 750px;
      background: linear-gradient(to bottom, #0aec98 0%, #0284c7 100%);
-     border-radius: 322px 0px 0px 380px;
-     padding: 132px 20px 0px 50px;
+     padding: 2rem;
+     display: flex;
+     align-items: center;
 }
 
 .text-img figure {
@@ -602,7 +607,7 @@ font-size: 21px;
 .d_flex {
      display: flex;
      align-items: center;
-     flex-wrap: wrap;
+     max-height: 620px;
 }
 
 
@@ -760,7 +765,7 @@ font-size: 21px;
      color: #353535;
      font-size: 17px;
      border-radius: 15px;
-     padding-top: 51px;
+     padding-top: 14px;
 }
 
 .request .main_form .send_btn {
@@ -991,5 +996,15 @@ body {
      height: auto;
      margin: auto 0;
 }
+
+.help-block {
+     color: rgb(229, 67, 67);
+     margin-top: 0.1rem;
+     margin-bottom: 1rem;
+}
+.request .main_form *:has(~ .help-block){     
+     margin-bottom: 0;
+}
+
 /** end footer **/
 
